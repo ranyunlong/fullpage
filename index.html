@@ -6,23 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="dist/css/fullpage.css">
     <link rel="stylesheet" href="dist/css/normalize.css">
-    <link rel="stylesheet" href="dist/css/index.css">
-    <script src="src/js/index.js"></script>
+    <script src="src/js/fullpage.js"></script>
 </head>
 
 <body>
-    <div class="fullpage">
-        <div class="page page0">
-
+    <div class="page">
+        <div class="section section1">
+            <h1>1</h1>
         </div>
-        <div class="page page1">
-
+        <div class="section section2">
+            <h1>2</h1>
         </div>
-        <div class="page page2">
-
+        <div class="section section3">
+            <h1>3</h1>
         </div>
     </div>
+    <script type="text/javascript">
+        fullpage({
+            el: '.page',
+            option: '.section',
+            timed: 1000
+        });
+    </script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@ const less = require('gulp-less');
 const bs = require('browser-sync');
 
 gulp.task('less', function() {
-    gulp.src('src/less/index.less')
+    gulp.src('src/less/fullpage.less')
         .pipe(less())
         .pipe(gulp.dest('dist/css'));
 })
