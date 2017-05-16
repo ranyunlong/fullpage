@@ -1,6 +1,6 @@
-#fullpage
+# fullpage
 
-###使用方法
+### 使用方法
 
 * [下载](https://github.com/ranyunlong/fullpage/archive/master.zip/) 
 
