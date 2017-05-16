@@ -4,9 +4,10 @@
 
 > <link rel="stylesheet" href="dist/css/fullpage.css">
 > <script src="src/js/fullpage.js"></script>
-> <script type="text/javascript">
-       fullpage({
-            el: '.page', //绑定fullpage
-            option: '.section', //页面项目
-        });
-    </script>
+> 
+<script type="text/javascript">
+    fullpage({
+        el: '.page', //绑定fullpage
+        option: '.section', //页面项目
+    });
+</script>
