@@ -2,7 +2,7 @@
 
 ###使用方法
 
-*[下载](https://github.com/ranyunlong/fullpage/archive/master.zip/) 
+* [下载](https://github.com/ranyunlong/fullpage/archive/master.zip/) 
 
 ```javascript
 <link rel="stylesheet" href="dist/css/fullpage.css">
