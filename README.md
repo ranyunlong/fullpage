@@ -10,7 +10,7 @@
 <script type="text/javascript">
     fullpage({
         el: '.page', //绑定fullpage
-        optio2n: '.section', //页面项目
+        option: '.section', //页面项目
     });
 </script>
 ```
